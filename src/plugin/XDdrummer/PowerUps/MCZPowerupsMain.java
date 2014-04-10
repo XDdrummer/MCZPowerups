@@ -23,6 +23,7 @@ public class MCZPowerupsMain extends JavaPlugin implements Listener
 		log.info("[MCZPowerups] Enabled MC-ZPowerups!");
 		log.info("[MCZPowerups] Plugin in Beta!");
 		this.getPluginManager().registerEvents(this, this);
+		this.getCommand("powerupslist").setExecutor(new PowerupsListCommand(this));
 		this.saveConfig();
 	}
 
