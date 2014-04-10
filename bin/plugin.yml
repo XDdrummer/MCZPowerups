@@ -1,0 +1,4 @@
+name: Powerups
+version: 1.0
+main: plugin.XDdrummer.PowerUps.MCZPowerupsMain
+description: Get special effects from blocks!
