@@ -31,6 +31,7 @@ public class MCZPowerupsMain extends JavaPlugin implements Listener
 		this.getServer().getPluginManager().registerEvents(this, this);
 		getServer().getPluginManager().addPermission(new Permission("powerups.active"));
 		getServer().getPluginManager().addPermission(new Permission("powerups.liquid"));
+		getServer().getPluginManager().addPermission(new Permission("powerups.admin"));
 		getServer().getPluginManager().addPermission(new Permission("found.lava"));
 		getServer().getPluginManager().addPermission(new Permission("found.water"));
 		getServer().getPluginManager().addPermission(new Permission("found.diamond"));
