@@ -2,6 +2,8 @@ package plugin.XDdrummer.PowerUps;
 
 import java.util.logging.Logger;
 
+import plugin.XDdrummer.PowerUps
+
 import org.bukkit.Bukkit;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
@@ -31,7 +33,6 @@ public class PowerupsListCommand implements CommandExecutor {
 				+ ChatColor.BLUE + "Water is poisonous! It gives you 10 seconds of Confusion + Hunger." + "\n"
 				+ ChatColor.RED + "Lava weakens you! It gives you 5 seconds of weakness." + "\n"
 				+ ChatColor.AQUA + "Warning! You can not breathe under water!");
-
 			}
 		}else {
 			
