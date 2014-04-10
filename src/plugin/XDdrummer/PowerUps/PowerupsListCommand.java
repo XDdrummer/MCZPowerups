@@ -33,6 +33,11 @@ public class PowerupsListCommand implements CommandExecutor {
 				+ ChatColor.BLUE + "Water is poisonous! It gives you 10 seconds of Confusion + Hunger." + "\n"
 				+ ChatColor.RED + "Lava weakens you! It gives you 5 seconds of weakness." + "\n"
 				+ ChatColor.AQUA + "Warning! You can not breathe under water!");
+			}else
+			{
+				p.sendMessage(ChatColor.RED + "[MCZPowerups] You do not have access to a full list of powerups!" + "\n"
+				+ "Look for Diamond, Emerald, and Gold blocks, along with beacons!" + "\n"
+				+ "Be careful around liquids, though!");
 			}
 		}else {
 			
