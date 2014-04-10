@@ -16,6 +16,7 @@ import org.bukkit.permissions.PermissionAttachment;
 import org.bukkit.plugin.java.JavaPlugin;
 import org.bukkit.potion.PotionEffect;
 import org.bukkit.potion.PotionEffectType;
+import org.bukkit.util.Vector;
 
 public class MCZPowerupsMain extends JavaPlugin implements Listener
 {
@@ -72,6 +73,9 @@ public class MCZPowerupsMain extends JavaPlugin implements Listener
 					p.sendMessage(ChatColor.AQUA + "You received High Jump + Regeneration from Diamond Block!");
 					p.addPotionEffect(diamondEffect);
 					p.addPotionEffect(diamondEffect2);
+					
+					Vector vector = new Vector(1, 1, 0);
+					p.setVelocity(vector);
 				}else if(block == Material.EMERALD_BLOCK) {
 					PotionEffect emeraldEffect = new PotionEffect(PotionEffectType.INCREASE_DAMAGE, 19, 3);
 					PotionEffect emeraldEffect2 = new PotionEffect(PotionEffectType.NIGHT_VISION, 20, 3);
@@ -84,6 +88,9 @@ public class MCZPowerupsMain extends JavaPlugin implements Listener
 					p.sendMessage(ChatColor.GREEN + "You received Strength + Night Vision from Emerald Block!");
 					p.addPotionEffect(emeraldEffect);
 					p.addPotionEffect(emeraldEffect2);
+					
+					Vector vector = new Vector(1, 1, 0);
+					p.setVelocity(vector);
 				}else if(block == Material.GOLD_BLOCK) {
 					PotionEffect goldEffect = new PotionEffect(PotionEffectType.SPEED, 19, 3);
 					PotionEffect goldEffect2 = new PotionEffect(PotionEffectType.FIRE_RESISTANCE, 20, 3);
@@ -96,6 +103,9 @@ public class MCZPowerupsMain extends JavaPlugin implements Listener
 					p.sendMessage(ChatColor.YELLOW + "You received Speed + Fire Resistance from Gold Block!");
 					p.addPotionEffect(goldEffect);
 					p.addPotionEffect(goldEffect2);
+					
+					Vector vector = new Vector(1, 1, 0);
+					p.setVelocity(vector);
 				}else if(block == Material.BEACON) {
 					PotionEffect beaconEffect = new PotionEffect(PotionEffectType.DAMAGE_RESISTANCE, 61, 5);
 					PotionEffect beaconEffect2 = new PotionEffect(PotionEffectType.BLINDNESS, 31, 5);
@@ -108,6 +118,9 @@ public class MCZPowerupsMain extends JavaPlugin implements Listener
 					p.sendMessage(ChatColor.BOLD + "You received Damage Resistance from Beacon, in exchange for 30 seconds of your vision!");
 					p.addPotionEffect(beaconEffect);
 					p.addPotionEffect(beaconEffect2);
+					
+					Vector vector = new Vector(1, 1, 0);
+					p.setVelocity(vector);
 				}else{}
 			}
 		}
