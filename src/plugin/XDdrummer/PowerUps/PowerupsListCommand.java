@@ -2,7 +2,7 @@ package plugin.XDdrummer.PowerUps;
 
 import java.util.logging.Logger;
 
-import plugin.XDdrummer.PowerUps
+import plugin.XDdrummer.PowerUps.MCZPowerupsMain;
 
 import org.bukkit.Bukkit;
 import org.bukkit.command.Command;
